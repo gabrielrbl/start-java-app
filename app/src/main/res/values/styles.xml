@@ -1,0 +1,61 @@
+<resources>
+
+    <style name="ContainerComponents">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/background</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+
+    <style name="Edit_Text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/edit_text</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:layout_marginLeft">40dp</item>
+        <item name="android:layout_marginRight">40dp</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:layout_marginLeft">40dp</item>
+        <item name="android:layout_marginRight">40dp</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textColor">@color/blue_900</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/shadow_button</item>
+    </style>
+
+    <style name="Button_Secondary">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:layout_marginLeft">40dp</item>
+        <item name="android:layout_marginRight">40dp</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textColor">@color/blue_900</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/shadow_button_secondary</item>
+    </style>
+
+    <style name="Button_Cadastro">
+        <item name="android:layout_width">175dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">@drawable/button</item>
+    </style>
+</resources>

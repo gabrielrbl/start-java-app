@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorPrimaryVariant"
+    android:orientation="vertical"
+    tools:context=".ui.cadastro.CadastroActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginTop="25dp"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/Theme.Start.PopupOverlay">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/title_cadastro"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/sampleViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+</LinearLayout>
+

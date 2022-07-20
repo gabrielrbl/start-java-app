@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Start</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="entrar">Entrar</string>
+    <string name="resetar">Resetar</string>
+    <string name="text_cadastro">Crie uma conta clicando aqui</string>
+    <string name="title_cadastro">Registrar</string>
+    <string name="title_facalogin">Faça login</string>
+    <string name="title_login">Login</string>
+    <string name="title_resetsenha">Resetar senha</string>
+    <string name="text_esqueceusenha">Esqueceu sua senha</string>
+    <string name="text_procuropor">Procuro por</string>
+    <string name="text_vagas">Vagas</string>
+    <string name="text_candidatos">Candidatos</string>
+
+    <string name="menu_home">Início</string>
+    <string name="menu_profile">Perfil</string>
+    <string name="menu_vacancies">Vagas</string>
+    <string name="menu_logout">Sair</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
